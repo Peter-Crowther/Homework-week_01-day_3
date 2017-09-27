@@ -97,7 +97,10 @@ puts users ["Avril"][:pets]["colin"]
 #Return the smallest of Erik's favorite numbers
 puts users ["Erik"][:favourite_numbers][2]
 
-Add the number 7 to Erik's favorite numbers
+#Add the number 7 to Erik's favorite numbers
+users ["Erik"][:favourite_numbers].push(7)
+
 Change Erik's hometown to Edinburgh
+
 Add a pet dog to Erik called "Fluffy"
 Add yourself to the users hash
