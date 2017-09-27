@@ -3,14 +3,31 @@ Homework
 A. Given the following data structure:
 
 lines = ['Gyle Centre', 'Edinburgh Park', 'Murrayfield Stadium', 'Haymarket', 'Princes Street']
+
 Work out how many stops there are in the array
+5
+
 Return 'Edinburgh Park' from the array
+lines[1]
+
 How many ways can we return 'Princes Street' from the array?
+lines[4] & lines[-1]
+
 Work out the index position of 'Haymarket'
+index position 3
+
 Add 'Airport' to the start of the array
+lines.unshift('Airport')
+
 Add 'York Place' to the end of the array
+lines.push('York Place')
+
 Remove 'Edinburgh Park' from the array using it's name
+lines.delete('Edinburgh Park')
+
 Delete 'Edinburgh Park' from the array by index
+lines.delete_at(1)
+
 Reverse the positions of the stops in the array
 B. Given the following data structure:
 
