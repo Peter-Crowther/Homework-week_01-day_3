@@ -91,8 +91,12 @@ puts users ["Erik"][:home_town]
 #Return the array of Erik's favorite numbers
 puts users ["Erik"][:favourite_numbers]
 
-Return the type of Avril's pet Colin
-Return the smallest of Erik's favorite numbers
+#Return the type of Avril's pet Colin
+puts users ["Avril"][:pets]["colin"]
+
+#Return the smallest of Erik's favorite numbers
+puts users ["Erik"][:favourite_numbers][2]
+
 Add the number 7 to Erik's favorite numbers
 Change Erik's hometown to Edinburgh
 Add a pet dog to Erik called "Fluffy"
