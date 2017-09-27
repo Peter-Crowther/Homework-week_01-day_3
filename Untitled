@@ -82,8 +82,11 @@ C. Given the following data structure:
       }
     },
   }
-Return Jonathan's Twitter handle (i.e. the string "jonnyt")
+#Return Jonathan's Twitter handle (i.e. the string "jonnyt")
+puts users ["Jonathan"][:twitter]
+
 Return Erik's hometown
+puts users []
 Return the array of Erik's favorite numbers
 Return the type of Avril's pet Colin
 Return the smallest of Erik's favorite numbers
