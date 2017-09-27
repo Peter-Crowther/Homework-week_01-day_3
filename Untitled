@@ -103,5 +103,8 @@ users ["Erik"][:favourite_numbers].push(7)
 #Change Erik's hometown to Edinburgh
 users ["Erik"][:home_town] = "Edinburgh"
 
-Add a pet dog to Erik called "Fluffy"
-Add yourself to the users hash
+#Add a pet dog to Erik called "Fluffy"
+users ["Erik"][:pets]["Fluffy"] = :dog
+
+#Add yourself to the users hash
+users["Pete"] = {}
