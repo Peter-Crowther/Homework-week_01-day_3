@@ -88,7 +88,9 @@ puts users ["Jonathan"][:twitter]
 #Return Erik's hometown
 puts users ["Erik"][:home_town]
 
-Return the array of Erik's favorite numbers
+#Return the array of Erik's favorite numbers
+puts users ["Erik"][:favourite_numbers]
+
 Return the type of Avril's pet Colin
 Return the smallest of Erik's favorite numbers
 Add the number 7 to Erik's favorite numbers
